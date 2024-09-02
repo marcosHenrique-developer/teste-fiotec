@@ -1,0 +1,16 @@
+// Import all of Bootstrap's CSS
+@import "bootstrap/scss/bootstrap";
+
+a {
+  text-decoration: none;
+  color: $black;
+  transition: .3s ease-in-out;
+  &:hover {
+    color: $cyan-400;
+  }
+
+}
+.image-resezing {
+  width: 20px;
+  height: 20px;
+}
